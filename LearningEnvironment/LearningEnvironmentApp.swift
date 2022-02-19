@@ -11,7 +11,7 @@ import SwiftUI
 struct LearningEnvironmentApp: App {
     var body: some Scene {
         WindowGroup {
-            CombineView()
+            FormView()
         }
     }
 }

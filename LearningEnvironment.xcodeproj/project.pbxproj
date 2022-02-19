@@ -10,6 +10,7 @@
 		950AF4FE27C12B3D006E5E7C /* AnimatedCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950AF4FD27C12B3D006E5E7C /* AnimatedCheckboxView.swift */; };
 		950AF50027C13390006E5E7C /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950AF4FF27C13390006E5E7C /* FormView.swift */; };
 		950AF50327C13408006E5E7C /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950AF50227C13408006E5E7C /* Color+Ext.swift */; };
+		950AF50527C189FE006E5E7C /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950AF50427C189FE006E5E7C /* CircleProgressView.swift */; };
 		9530F32E27AAABC200F2F416 /* LearningEnvironmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530F32D27AAABC200F2F416 /* LearningEnvironmentApp.swift */; };
 		9530F33227AAABC200F2F416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530F33127AAABC200F2F416 /* Assets.xcassets */; };
 		9530F33527AAABC200F2F416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530F33427AAABC200F2F416 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		950AF4FD27C12B3D006E5E7C /* AnimatedCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCheckboxView.swift; sourceTree = "<group>"; };
 		950AF4FF27C13390006E5E7C /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		950AF50227C13408006E5E7C /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		950AF50427C189FE006E5E7C /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		9530F32A27AAABC200F2F416 /* LearningEnvironment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningEnvironment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9530F32D27AAABC200F2F416 /* LearningEnvironmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningEnvironmentApp.swift; sourceTree = "<group>"; };
 		9530F33127AAABC200F2F416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,13 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		950AF4FC27C12B20006E5E7C /* AnimatingCheckbox */ = {
+		950AF4FC27C12B20006E5E7C /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				950AF4FD27C12B3D006E5E7C /* AnimatedCheckboxView.swift */,
+				950AF50427C189FE006E5E7C /* CircleProgressView.swift */,
 				950AF4FF27C13390006E5E7C /* FormView.swift */,
 			);
-			path = AnimatingCheckbox;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		950AF50127C133FD006E5E7C /* Extensions */ = {
@@ -75,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				950AF50127C133FD006E5E7C /* Extensions */,
-				950AF4FC27C12B20006E5E7C /* AnimatingCheckbox */,
+				950AF4FC27C12B20006E5E7C /* CustomViews */,
 				9530F33B27AAABCA00F2F416 /* DownloadingWithCombine */,
 				9530F32D27AAABC200F2F416 /* LearningEnvironmentApp.swift */,
 				9530F33127AAABC200F2F416 /* Assets.xcassets */,
@@ -175,6 +178,7 @@
 				950AF4FE27C12B3D006E5E7C /* AnimatedCheckboxView.swift in Sources */,
 				9530F33D27AAABE600F2F416 /* CombineView.swift in Sources */,
 				950AF50327C13408006E5E7C /* Color+Ext.swift in Sources */,
+				950AF50527C189FE006E5E7C /* CircleProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

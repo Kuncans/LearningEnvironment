@@ -15,6 +15,7 @@
 		9530F33227AAABC200F2F416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530F33127AAABC200F2F416 /* Assets.xcassets */; };
 		9530F33527AAABC200F2F416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530F33427AAABC200F2F416 /* Preview Assets.xcassets */; };
 		9530F33D27AAABE600F2F416 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530F33C27AAABE600F2F416 /* CombineView.swift */; };
+		95747E2D27C266F40006D482 /* BarCompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95747E2C27C266F40006D482 /* BarCompareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9530F33127AAABC200F2F416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9530F33427AAABC200F2F416 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9530F33C27AAABE600F2F416 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		95747E2C27C266F40006D482 /* BarCompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCompareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 				950AF4FD27C12B3D006E5E7C /* AnimatedCheckboxView.swift */,
 				950AF50427C189FE006E5E7C /* CircleProgressView.swift */,
 				950AF4FF27C13390006E5E7C /* FormView.swift */,
+				95747E2C27C266F40006D482 /* BarCompareView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95747E2D27C266F40006D482 /* BarCompareView.swift in Sources */,
 				950AF50027C13390006E5E7C /* FormView.swift in Sources */,
 				9530F32E27AAABC200F2F416 /* LearningEnvironmentApp.swift in Sources */,
 				950AF4FE27C12B3D006E5E7C /* AnimatedCheckboxView.swift in Sources */,
